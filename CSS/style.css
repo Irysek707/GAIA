@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Body */
+
+body {
+    color: #000;
+    font-family: 'Marcellus', serif;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    text-align: center;
+    background-image: url("Earth.jpg");
+    background-size: cover;
+    height: 40%;
+    box-shadow: 0px 5px 0px #02547D;
+}
+
+.jumbotron img {
+    max-height: 200px;
+        -webkit-filter: drop-shadow(5px 5px 5px white);
+                filter: drop-shadow(5px 5px 5px white); 
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #02547D;
+    margin-top: -30px;
+    font-family: 'Cinzel Decorative';
+    font-size: 3vh;
+}
+
+.navbar a.navbar-brand img {
+    max-height: 40px;
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+            filter: drop-shadow(1px 1px 1px black); 
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-shadow(1px 1px 1px black);
+}
+
+.navbar a:hover {
+    color: #0284A8;
+    text-shadow(1px 1px 1px black);
+}
+
+.navbar a.active {
+    color: #0284A8;
+    text-shadow(1px 1px 1px black);
+}
+
+/* Main */
+
+main {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Marcellus', serif;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+}
+
+.container img {
+    width: 100%;
+    align-content: center;
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.row {
+    margin: auto;
+    padding: 15px;
+}
+
+/* Footer */
+
+footer{
+    margin: auto;
+    text-align: center;
+}
