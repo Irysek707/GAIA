@@ -72,6 +72,11 @@ main {
     font-family: 'Marcellus', serif;
 }
 
+.row {
+    margin: auto;
+    padding: 15px;
+}
+
 .row img {
     width: 100%;
     align-content: center;
@@ -80,11 +85,6 @@ main {
     height: 300px;
     object-fit: cover;
     margin: auto;
-}
-
-.row {
-    margin: auto;
-    padding: 15px;
 }
 
 /* Footer */
