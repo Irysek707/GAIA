@@ -4,6 +4,7 @@
 body {
     background: -webkit-linear-gradient(white, #E1F7E7, #A9E8DC);
     font-family: 'Marcellus', serif;
+    font-size: 12px;
 }
 
 /* Scrollbar */
@@ -61,17 +62,17 @@ body {
 
 .navbar a {
     color: white;
-    text-shadow(1px 1px 1px black);
+    text-shadow:(1px 1px 1px black);
 }
 
 .navbar a:hover {
     color: #E1F7E7;
-    text-shadow(1px 1px 1px black);
+    text-shadow: (1px 1px 1px black);
 }
 
 .navbar a.active {
     color: #A9E8DC;
-    text-shadow(1px 1px 1px black);
+    text-shadow: (1px 1px 1px black);
 }
 
 /* Main part of website */
@@ -88,17 +89,21 @@ p {
 h1 {
     text-align: center;
 	background: -webkit-linear-gradient(#0284A8, #02BEC4);
-  	-webkit-background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Cinzel Decorative';
+    font-size: 20px;
 	
 }
 
 h2 {
 	background: -webkit-linear-gradient(#0284A8, #02BEC4);
+    background-clip: text;
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
     font-family: 'Cinzel Decorative';
+    font-size: 18px;
 }
 
 /* Responsive layout */
