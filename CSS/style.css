@@ -45,7 +45,7 @@ body {
 .navbar {
     background: -webkit-linear-gradient(#02547D, #0284A8, #02BEC4);
     margin-top: -30px;
-    font-family: 'Cinzel Decorative';
+    font-family: 'Marcellus', serif;
     font-size: 3vh;
 }
 
@@ -87,7 +87,6 @@ p {
 
 h1 {
     text-align: center;
-	text-transform: uppercase;
 	background: -webkit-linear-gradient(#0284A8, #02BEC4);
   	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -102,23 +101,7 @@ h2 {
     font-family: 'Cinzel Decorative';
 }
 
-h3 {
-	background: -webkit-linear-gradient(#0284A8, #02BEC4);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-      font-family: 'Cinzel Decorative';
-}
-
-h4 {
-    text-align: center;
-    text-align: center;
-	text-transform: uppercase;
-	background: -webkit-linear-gradient(#0284A8, #02BEC4);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-      font-family: 'Cinzel Decorative';
-}
-
+/* Responsive layout */
 .container {
     padding: 2%;
     font-family: 'Marcellus', serif;
@@ -129,6 +112,30 @@ h4 {
     margin: auto;
 }
 
+.row {
+    padding:1em;
+}
+
+.row a {
+    color: #0284A8;
+    text-decoration: none;
+}
+
+.row a:hover {
+    color: #02547D;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .hidden-img {
+      visibility: hidden;
+      clear: both;
+      display: none;
+    }
+  }
+
+/* Images */
+
 .img {
     width: 400px;
     height: 400px;
@@ -136,6 +143,28 @@ h4 {
     border-radius: 400px;
     border: solid 10px #02BEC4;
     align-content: center;
+}
+
+img.social {
+    width: 50px !important;
+    height: 50px !important;
+    border: none !important;
+}
+
+/* Slider */
+
+.slide {
+    border: solid 20px #0284A8;
+}
+
+.carousel-item {
+    width: 50%;
+    height: 400px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 400px;
 }
 
 /* Footer */
@@ -147,5 +176,11 @@ footer {
     font-size: 2vh;
     text-align: center;
     margin:auto;
-    padding: 2%;
+    padding: 0px;
+}
+
+footer img {
+    width: 50px !important;
+    height: 50px !important;
+    border: none !important;
 }
