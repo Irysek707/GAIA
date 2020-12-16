@@ -1,12 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* Body */
-
 body {
-    color: #000;
+    background: -webkit-linear-gradient(white, #E1F7E7, #A9E8DC);
     font-family: 'Marcellus', serif;
 }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #E1F7E7; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #02BEC4; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #02547d; 
+  }
+
 
 /* Jumbotron */
 
@@ -27,7 +43,7 @@ body {
 /* Navbar */
 
 .navbar {
-    background-color: #02547D;
+    background: -webkit-linear-gradient(#02547D, #0284A8, #02BEC4);
     margin-top: -30px;
     font-family: 'Cinzel Decorative';
     font-size: 3vh;
@@ -49,47 +65,87 @@ body {
 }
 
 .navbar a:hover {
-    color: #0284A8;
+    color: #E1F7E7;
     text-shadow(1px 1px 1px black);
 }
 
 .navbar a.active {
-    color: #0284A8;
+    color: #A9E8DC;
     text-shadow(1px 1px 1px black);
 }
 
-/* Main */
+/* Main part of website */
 
 main {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    color: black;
     font-family: 'Marcellus', serif;
+}
+
+p {
+	text-indent: 5%;
+}
+
+h1 {
+    text-align: center;
+	text-transform: uppercase;
+	background: -webkit-linear-gradient(#0284A8, #02BEC4);
+  	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cinzel Decorative';
+	
+}
+
+h2 {
+	background: -webkit-linear-gradient(#0284A8, #02BEC4);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+    font-family: 'Cinzel Decorative';
+}
+
+h3 {
+	background: -webkit-linear-gradient(#0284A8, #02BEC4);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+      font-family: 'Cinzel Decorative';
+}
+
+h4 {
+    text-align: center;
+    text-align: center;
+	text-transform: uppercase;
+	background: -webkit-linear-gradient(#0284A8, #02BEC4);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+      font-family: 'Cinzel Decorative';
 }
 
 .container {
-    margin: auto;
-    text-align: center;
+    padding: 2%;
     font-family: 'Marcellus', serif;
 }
 
-.row {
+.pad {
+    text-align: justify;
     margin: auto;
-    padding: 15px;
 }
 
-.row img {
-    width: 100%;
-    align-content: center;
-    border-radius: 300px;
-    width: 300px;
-    height: 300px;
+.img {
+    width: 400px;
+    height: 400px;
     object-fit: cover;
-    margin: auto;
+    border-radius: 400px;
+    border: solid 10px #02BEC4;
+    align-content: center;
 }
 
 /* Footer */
 
-footer{
-    margin: auto;
+footer {
+    background: -webkit-linear-gradient(#02BEC4, #0284A8, #02547D);
+    font-family: 'Marcellus', serif;
+    color: white;
+    font-size: 2vh;
     text-align: center;
+    margin:auto;
+    padding: 2%;
 }
